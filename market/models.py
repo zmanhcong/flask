@@ -11,3 +11,4 @@ class Item(db.Model):
 
     def __repr__(self):
         return f'Item {self.name}'  #data duoc nhap tu commmand vao database -> khi ta them chuc nang này thì nó sẽ hiện tên chứ không hiện ra item.
+
